@@ -1,0 +1,495 @@
+body {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+#logo {
+  width: 13%;
+  height: 120px;
+  position: relative;
+  bottom: 40px;
+}
+
+#logo img {
+  width: 100%;
+  height: auto;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 14px;
+}
+
+#home {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 34px;
+}
+
+header {
+  background-image: url(../img/pocetna.jpg);
+  width: 100%;
+  height: 830px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#emoji {
+  height: 500px;
+  width: 350px;
+  position: relative;
+  left: 280px;
+  bottom: 250px;
+}
+
+#emoji img {
+  width: 100%;
+  height: auto;
+}
+
+#tekst {
+  width: 60%;
+  height: 200px;
+  margin: 70px auto;
+  margin-bottom: 0px;
+}
+
+#tekst h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  background-color: #1e2429;
+  opacity: 0.9;
+}
+
+#tekst h2 {
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #1e2429;
+  opacity: 0.9;
+}
+
+#centriranje {
+  width: 35%;
+  height: 30px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.dugme {
+  width: 140px;
+  height: 38px;
+  border-radius: 10px;
+  display: inline;
+  background-color: #1e2429;
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.dugme a {
+  text-decoration: none;
+  color: #fff;
+}
+
+span {
+  color: #51bab4;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#krug {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #51bab4;
+  text-align: center;
+  font-size: 35pt;
+  position: fixed;
+  left: 1350px;
+  bottom: 89px;
+}
+
+#krug a {
+  color: #1e2429;
+}
+
+#about-me {
+  width: 12%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+#about-me h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#skills {
+  width: 12%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+#skills h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#o-meni, #services {
+  width: 100%;
+  height: 800px;
+  background-color: #1e2429;
+}
+
+.slika {
+  width: 40%;
+  height: 535px;
+  border: #1e2429 dotted;
+  margin-left: 10px;
+  margin-top: 40px;
+  background-color: #51bab4;
+  border-radius: 35px;
+}
+
+.slika img {
+  width: 100%;
+  height: 535px;
+}
+
+.tekstOmeni {
+  width: 40%;
+  margin-top: 40px;
+}
+
+#kontejner {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 1150px;
+}
+
+.tekstOmeni h3 {
+  font-size: 25px;
+  border-bottom: #51bab4 solid;
+  font-weight: bold;
+}
+
+.tekstOmeni p {
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+
+.usluge {
+  width: 25%;
+  height: 350px;
+  background-color: #51bab4;
+  border-radius: 15px;
+  border: #424c4e dotted;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#centriranje1 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.usluge h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.usluge i {
+  font-size: 30pt;
+  margin-top: 23px;
+  margin-bottom: 10px;
+  color: #5b7578;
+}
+
+.boja {
+  color: #35506e;
+  font-style: normal !important;
+}
+
+#centriranje2 {
+  height: 40px;
+  width: 100%;
+  background-color: #1e2429;
+}
+
+#centriranje3 {
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e2429;
+}
+
+.container {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  background: #fff;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.container .skill-box {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.skill-box .title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #424c4e;
+}
+
+.skill-box .skill-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.skill-bar .skill-per {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  background: #5b7578;
+  border-radius: 6px;
+}
+
+.skill-per.css {
+  width: 70%;
+}
+
+.skill-per.javaSCR {
+  width: 70%;
+}
+
+.skill-per.SASS {
+  width: 85%;
+}
+
+.skill-per.C {
+  width: 80%;
+}
+
+.skill-per.Csarp {
+  width: 65%;
+}
+
+.skill-per .tooltip {
+  position: absolute;
+  right: -14px;
+  top: -28px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background: #5b7578;
+  z-index: 1;
+}
+
+.tooltip ::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+  background-color: #5b7578;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+#projekti {
+  background-color: #1e2429;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.projekti1 {
+  width: 46%;
+  border-radius: 5px;
+  border: #1e2429 solid;
+}
+
+#projects {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin: 0px auto;
+  background-color: #1e2429;
+  padding-bottom: 85px;
+}
+
+#projects h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #51bab4;
+}
+
+.projekti1 img {
+  width: 100%;
+  height: 250px;
+}
+
+#contact-us {
+  width: 100%;
+  height: 80px;
+  background-color: #1e2429;
+  text-align: center;
+  padding: 60px 0;
+}
+
+#contact-us h2 {
+  font-size: 30px;
+}
+
+#kontaktirajte {
+  width: 100%;
+  background-color: #1e2429;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 750px;
+}
+
+.container2 {
+  width: 600px;
+  padding: 20px;
+  background-color: #1e2429;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: #fff solid;
+  height: 600px;
+}
+
+.container2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.container2 label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.container2 input[type=text],
+.container2 input[type=email],
+.container2 textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #1e2429;
+}
+
+.container2 textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.container2 input[type=submit] {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.container2 input[type=submit]:hover {
+  background-color: #51bab4;
+}
+
+#container1 {
+  width: 30%;
+  height: 600px;
+}
+
+#container1 h2 {
+  font-size: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  font-style: italic;
+}
+
+#mreze {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+}
+
+#mreze i {
+  color: #51bab4;
+}
+
+#mreze a {
+  font-size: 30pt;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#mreze1 {
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  background-color: #000000;
+}/*# sourceMappingURL=style.css.map */
